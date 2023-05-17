@@ -1,127 +1,586 @@
 {
     "Empresa": [
-        {
-          "id":1,
-          "nombre_Empresa": "Interbank",
-          "descripcion_Empresa": "Banco importante del Perú",
-          "correo_Empresa":"interbank@gmail.com"
-        },
-        {
-          "id":2,
-          "nombre_Empresa": "BBVA",
-          "descripcion_Empresa": "Banco importante del Perú",
-          "correo_Empresa":"bbva@gmail.com"
-        },
-        {
-          "id":3,
-          "nombre_Empresa": "BCP",
-          "descripcion_Empresa": "Banco importante del Perú",
-          "correo_Empresa":"bcp@gmail.com"
-        },
-        {
-          "id":4,
-          "nombre_Empresa": "UPC",
-          "descripcion_Empresa": "Institución educativa de estudios superiores",
-          "correo_Empresa":"upc@gmail.com"
-        }
-      ],
-      "Requisitos": [
-          {
-            "id":1,
-            "Requisito": "Autodidacta, Ingeniero de Software, Ingeniero de Sistemas"
-          },
-          {
-            "id":2,
-            "Requisito": "Autodidacta, Comunicaciones, Lider"
-          },
-          {
-            "id":3,
-            "Requisito": "Autodidacta, Lider, Ingeniero de Software, Ingeniero de Sistemas"
-          },
-          {
-            "id":4,
-            "Requisito": "Autodidacta, Ingeniero de Software, Ingeniero de Sistemas"
-          }
-        ],
+      {
+        "id": 1,
+        "nombre_Empresa": "Interbank",
+        "descripcion_Empresa": "Banco importante del Perú",
+        "correo_Empresa": "interbank@gmail.com"
+      },
+      {
+        "id": 2,
+        "nombre_Empresa": "BBVA",
+        "descripcion_Empresa": "Banco importante del Perú",
+        "correo_Empresa": "bbva@gmail.com"
+      },
+      {
+        "id": 3,
+        "nombre_Empresa": "BCP",
+        "descripcion_Empresa": "Banco importante del Perú",
+        "correo_Empresa": "bcp@gmail.com"
+      },
+      {
+        "id": 4,
+        "nombre_Empresa": "UPC",
+        "descripcion_Empresa": "Institución educativa de estudios superiores",
+        "correo_Empresa": "upc@gmail.com"
+      },
+      {
+        "id": 5,
+        "nombre_Empresa": "Gloria",
+        "descripcion_Empresa": "Empresa productora de lácteos",
+        "correo_Empresa": "gloria@gmail.com"
+      },
+      {
+        "id": 6,
+        "nombre_Empresa": "Coca-Cola",
+        "descripcion_Empresa": "Empresa productora de bebidas gaseosas",
+        "correo_Empresa": "cocacola@gmail.com"
+      },
+      {
+        "id": 7,
+        "nombre_Empresa": "P&G",
+        "descripcion_Empresa": "Empresa de productos de consumo masivo",
+        "correo_Empresa": "pg@gmail.com"
+      },
+      {
+        "id": 8,
+        "nombre_Empresa": "IBM",
+        "descripcion_Empresa": "Empresa de tecnología y servicios",
+        "correo_Empresa": "ibm@gmail.com"
+      },
+      {
+        "id": 9,
+        "nombre_Empresa": "Microsoft",
+        "descripcion_Empresa": "Empresa de tecnología y software",
+        "correo_Empresa": "microsoft@gmail.com"
+      },
+      {
+        "id": 10,
+        "nombre_Empresa": "Apple",
+        "descripcion_Empresa": "Empresa de tecnología y electrónica",
+        "correo_Empresa": "apple@gmail.com"
+      },
+      {
+        "id": 11,
+        "nombre_Empresa": "Amazon",
+        "descripcion_Empresa": "Empresa de comercio electrónico y servicios en la nube",
+        "correo_Empresa": "amazon@gmail.com"
+      },
+      {
+        "id": 12,
+        "nombre_Empresa": "Google",
+        "descripcion_Empresa": "Empresa de tecnología y motor de búsqueda en internet",
+        "correo_Empresa": "google@gmail.com"
+      },
+      {
+        "id": 13,
+        "nombre_Empresa": "Facebook",
+        "descripcion_Empresa": "Empresa de tecnología y red social",
+        "correo_Empresa": "facebook@gmail.com"
+      },
+      {
+        "id": 14,
+        "nombre_Empresa": "Tesla",
+        "descripcion_Empresa": "Empresa de tecnología y vehículos eléctricos",
+        "correo_Empresa": "tesla@gmail.com"
+      },
+      {
+        "id": 15,
+        "nombre_Empresa": "Samsung",
+        "descripcion_Empresa": "Empresa de tecnología y electrónica",
+        "correo_Empresa": "samsung@gmail.com"
+      },
+      {
+        "id": 16,
+        "nombre_Empresa": "Sony",
+        "descripcion_Empresa": "Empresa de tecnología y electrónica",
+        "correo_Empresa": "sony@gmail.com"
+      },
+      {
+        "id": 17,
+        "nombre_Empresa": "Nike",
+        "descripcion_Empresa": "Empresa de ropa y accesorios deportivos",
+        "correo_Empresa": "nike@gmail.com"
+      },
+      {
+        "id": 18,
+        "nombre_Empresa": "Adidas",
+        "descripcion_Empresa": "Empresa de ropa y accesorios deportivos",
+        "correo_Empresa": "adidas@gmail.com"
+      },
+      {
+        "id": 19,
+        "nombre_Empresa": "Puma",
+        "descripcion_Empresa": "Empresa de ropa y accesorios deportivos",
+        "correo_Empresa": "puma@gmail.com"
+      },
+      {
+        "id": 20,
+        "nombre_Empresa": "Toyota",
+        "descripcion_Empresa": "Empresa de automóviles y vehículos",
+        "correo_Empresa": "toyota@gmail.com"
+      }
+    ],
+    "Requisitos": [
+      {
+        "id":1,
+        "Requisito": "Experiencia en trabajo remoto, habilidades interpersonales excepcionales, Licenciado en Comunicación"
+      },
+      {
+        "id":2,
+        "Requisito": "Conocimiento en Inteligencia Artificial, capacidad para trabajar en equipo, Licenciado en Matemáticas"
+      },
+      {
+        "id":3,
+        "Requisito": "Experiencia en proyectos de alta complejidad, habilidades de liderazgo, Licenciado en Ingeniería Civil"
+      },
+      {
+        "id":4,
+        "Requisito": "Conocimiento en herramientas de marketing digital, excelentes habilidades de comunicación, Licenciado en Marketing"
+      },
+      {
+        "id":5,
+        "Requisito": "Capacidad para adaptarse rápidamente a nuevos entornos, habilidades de resolución de problemas, Licenciado en Psicología"
+      },
+      {
+        "id":6,
+        "Requisito": "Experiencia en diseño de software, capacidad para trabajar bajo presión, Licenciado en Ciencias de la Computación"
+      },
+      {
+        "id":7,
+        "Requisito": "Conocimiento en finanzas corporativas, habilidades analíticas avanzadas, Licenciado en Administración de Empresas"
+      },
+      {
+        "id":8,
+        "Requisito": "Experiencia en la gestión de proyectos de construcción, habilidades de comunicación efectiva, Licenciado en Arquitectura"
+      },
+      {
+        "id":9,
+        "Requisito": "Conocimiento en tecnologías de la información, capacidad para trabajar en un entorno multicultural, Licenciado en Relaciones Internacionales"
+      },
+      {
+        "id":10,
+        "Requisito": "Experiencia en la gestión de campañas publicitarias, habilidades para trabajar con múltiples stakeholders, Licenciado en Publicidad"
+      },
+      {
+        "id":11,
+        "Requisito": "Experiencia en análisis de datos, habilidades de presentación, Licenciado en Estadística"
+      },
+      {
+        "id":12,
+        "Requisito": "Conocimiento en sistemas de gestión de bases de datos, capacidad para trabajar en equipo, Licenciado en Informática"
+      },
+      {
+        "id":13,
+        "Requisito": "Experiencia en desarrollo de aplicaciones móviles, habilidades de liderazgo, Licenciado en Ingeniería de Sistemas"
+      },
+      {
+        "id":14,
+        "Requisito": "Conocimiento en gestión de proyectos de recursos humanos, excelentes habilidades de comunicación, Licenciado en Recursos Humanos"
+      },
+      {
+        "id":15,
+        "Requisito": "Capacidad para realizar análisis financieros complejos, habilidades de negociación, Licenciado en Finanzas"
+      },
+      {
+        "id":16,
+        "Requisito": "Experiencia en diseño gráfico, capacidad para trabajar bajo presión, Licenciado en Diseño Gráfico"
+      },
+      {
+        "id":17,
+        "Requisito": "Conocimiento en desarrollo web, habilidades de resolución de problemas, Licenciado en Ingeniería en Computación"
+      },
+      {
+        "id":18,
+        "Requisito": "Experiencia en gestión de proyectos de logística, habilidades de organización, Licenciado en Logística y Transporte"
+      },
+      {
+        "id":19,
+        "Requisito": "Conocimiento en tecnologías de la información, capacidad para trabajar en un entorno de alta presión, Licenciado en Tecnologías de la Información"
+      },
+      {
+        "id":20,
+        "Requisito": "Experiencia en desarrollo de estrategias de marketing, habilidades para trabajar con múltiples stakeholders, Licenciado en Marketing Digital"
+      }
+    ],
       "Usuario": [
           {
-            "id":1,
+            "id": 1,
             "DNI_Usuario": 72400476,
-            "Usuario_Usuario":"PedroFin",
-            "Nombre_Usuario":"José Portocarrero",
-            "Correo_Usuario":"pedrofin@gmail.com",
-            "Contrasena_Usuario":"pedrofin123",
-            "Tipo_Usuario":"admin",
-            "key":"gd56hhi1q853mavgf245"
+            "Usuario_Usuario": "PedroFin",
+            "Nombre_Usuario": "José Portocarrero",
+            "Correo_Usuario": "pedrofin@gmail.com",
+            "Contrasena_Usuario": "pedrofin123",
+            "Tipo_Usuario": "admin",
+            "key": "gd56hhi1q853mavgf245"
+          },
+          {
+            "id": 2,
+            "DNI_Usuario": 72740496,
+            "Usuario_Usuario": "MariaFer",
+            "Nombre_Usuario": "Maria Fernadez",
+            "Correo_Usuario": "mariaFer@gmail.com",
+            "Contrasena_Usuario": "MariaFer3155",
+            "Tipo_Usuario": "estudiante",
+            "key": ""
+          },
+          {
+            "id": 3,
+            "DNI_Usuario": 72400270,
+            "Usuario_Usuario": "AdolfoMur",
+            "Nombre_Usuario": "Adolfo Muros",
+            "Correo_Usuario": "adolfoMur@gmail.com",
+            "Contrasena_Usuario": "AdolfoMur_741",
+            "Tipo_Usuario": "estudiante",
+            "key": ""
+          },
+          {
+            "id": 4,
+            "DNI_Usuario": 72405976,
+            "Usuario_Usuario": "AnaCon",
+            "Nombre_Usuario": "Ana Contreras",
+            "Correo_Usuario": "anaCon@gmail.com",
+            "Contrasena_Usuario": "AnaCon864",
+            "Tipo_Usuario": "reclutador",
+            "key": ""
+          },
+          {
+            "id": 5,
+            "DNI_Usuario": 72400456,
+            "Usuario_Usuario": "LuisMa",
+            "Nombre_Usuario": "Luis Martinez",
+            "Correo_Usuario": "luisma@gmail.com",
+            "Contrasena_Usuario": "LuisMa789",
+            "Tipo_Usuario": "admin",
+            "key": "kjfg48yf45uiwvfgks68"
+          },
+          {
+            "id": 6,
+            "DNI_Usuario": 72800586,
+            "Usuario_Usuario": "JuanPer",
+            "Nombre_Usuario": "Juan Perez",
+            "Correo_Usuario": "juanper@gmail.com",
+            "Contrasena_Usuario": "JuanPer123",
+            "Tipo_Usuario": "estudiante",
+            "key": ""
+          },
+          {
+            "id": 7,
+            "DNI_Usuario": 72340658,
+            "Usuario_Usuario": "ElenaRam",
+            "Nombre_Usuario": "Elena Ramirez",
+            "Correo_Usuario": "elenaram@gmail.com",
+            "Contrasena_Usuario": "ElenaRam321",
+            "Tipo_Usuario": "reclutador",
+            "key": ""
+          },
+          {
+            "id": 8,
+            "DNI_Usuario": 72600457,
+            "Usuario_Usuario": "PaulaSant",
+            "Nombre_Usuario": "Paula Santillan",
+            "correo_Usuario": "paulasant@gmail.com",
+            "Contrasena_Usuario": "PaulaSant789",
+            "Tipo_Usuario": "estudiante",
+            "key": ""
+          },
+          {
+            "id": 9,
+            "DNI_Usuario": 72900648,
+            "Usuario_Usuario": "RaulLop",
+            "Nombre_Usuario": "Raul Lopez",
+            "Correo_Usuario": "raulloz@gmail.com",
+            "Contrasena_Usuario": "RaulLop456",
+            "Tipo_Usuario": "reclutador",
+            "key": ""
+          },
+          {
+            "id": 10,
+            "DNI_Usuario": 72800670,
+            "Usuario_Usuario": "MartaGuz",
+            "Nombre_Usuario": "Marta Guzman",
+            "Correo_Usuario": "martaguz@gmail.com",
+            "Contrasena_Usuario": "MartaGuz234",
+            "Tipo_Usuario": "estudiante",
+            "key": ""
+          },
+          {
+            "id": 11,
+            "DNI_Usuario": 72340790,
+            "Usuario_Usuario": "CarlosMor",
+            "Nombre_Usuario": "Carlos Morales",
+            "Correo_Usuario": "carlosmor@gmail.com",
+            "Contrasena_Usuario": "CarlosMor789",
+            "Tipo_Usuario": "admin",
+            "key": "povnf55wme4ndjfnsg"
+          },
+          {
+            "id": 12,
+            "DNI_Usuario": 72600015,
+            "Usuario_Usuario": "ErickGon",
+            "Nombre_Usuario": "Erick Gonzalez",
+            "Correo_Usuario": "erickgonzalez@gmail.com",
+            "Contrasena_Usuario": "ErickGon789",
+            "Tipo_Usuario": "estudiante",
+            "key": ""
+          },
+          {
+            "id": 13,
+            "DNI_Usuario": 72600790,
+            "Usuario_Usuario": "IsabelRom",
+            "Nombre_Usuario": "Isabel Romero",
+            "Correo_Usuario": "isabelrom@gmail.com",
+            "Contrasena_Usuario": "IsabelRom234",
+            "Tipo_Usuario": "reclutador",
+            "key": ""
+          },
+          {
+            "id": 14,
+            "DNI_Usuario": 72400999,
+            "Usuario_Usuario": "DiegoTor",
+            "Nombre_Usuario": "Diego Torres",
+            "Correo_Usuario": "diegotorres@gmail.com",
+            "Contrasena_Usuario": "DiegoTor456",
+            "Tipo_Usuario": "estudiante",
+            "key": ""
+          },
+          {
+            "id": 15,
+            "DNI_Usuario": 72600579,
+            "Usuario_Usuario": "LauraSan",
+            "Nombre_Usuario": "Laura Sanchez",
+            "Correo_Usuario": "laurasanchez@gmail.com",
+            "Contrasena_Usuario": "LauraSan789",
+            "Tipo_Usuario": "admin",
+            "key": "werg467fj9d8fjg0s9"
+          },
+          {
+            "id": 16,
+            "DNI_Usuario": 72900001,
+            "Usuario_Usuario": "AlejandraRod",
+            "Nombre_Usuario": "Alejandra Rodriguez",
+            "Correo_Usuario": "alejandrarodriguez@gmail.com",
+            "Contrasena_Usuario": "AlejandraRod789",
+            "Tipo_Usuario": "estudiante",
+            "key": ""
+          },
+          {
+            "id":17,
+            "DNI_Usuario": 72800900,
+            "Usuario_Usuario": "MarioRam",
+            "Nombre_Usuario": "Mario Ramos",
+            "Correo_Usuario": "marioramos@gmail.com",
+            "Contrasena_Usuario": "MarioRam789",
+            "Tipo_Usuario": "estudiante",
+            "key": ""
+            },
+          {
+            "id":18,
+            "DNI_Usuario": 72400876,
+            "Usuario_Usuario": "NataliaPer",
+            "Nombre_Usuario": "Natalia Perez",
+            "Correo_Usuario": "nataliaperez@gmail.com",
+            "Contrasena_Usuario": "NataliaPer789",
+            "Tipo_Usuario": "reclutador",
+            "key": ""
+            },
+          {
+            "id":19,
+            "DNI_Usuario": 72400787,
+            "Usuario_Usuario": "JuanCor",
+            "Nombre_Usuario": "Juan Correa",
+            "Correo_Usuario": "juancorrea@gmail.com",
+            "Contrasena_Usuario": "JuanCor789",
+            "Tipo_Usuario": "estudiante",
+            "key": ""
+            },
+          {
+            "id":20,
+            "DNI_Usuario": 72600345,
+            "Usuario_Usuario": "SofiaLar",
+            "Nombre_Usuario": "Sofia Lara",
+            "Correo_Usuario": "sofialara@gmail.com",
+            "Contrasena_Usuario": "SofiaLar789",
+            "Tipo_Usuario": "admin",
+            "key": "jfd92nc7x32mkhgn20"
+            }
+        ],
+        "Institucion_Educativa": [
+          {
+            "id":1,
+            "nombre_Institucion": "Universidad Peruana de Ciencias Aplicadas",
+            "correo_Institucion": "upc@gmail.com"
           },
           {
             "id":2,
-              "DNI_Usuario": 72740496,
-              "Usuario_Usuario":"MariaFer",
-              "Nombre_Usuario":"Maria Fernadez",
-              "Correo_Usuario":"mariaFer@gmail.com",
-              "Contrasena_Usuario":"MariaFer3155",
-              "Tipo_Usuario":"estudiante",
-              "key":""
+            "nombre_Institucion": "Universidad Nacional de Ingeniería",
+            "correo_Institucion": "uni@gmail.com"
           },
           {
             "id":3,
-              "DNI_Usuario": 72400270,
-              "Usuario_Usuario":"AdolfoMur",
-              "Nombre_Usuario":"Adolfo Muros",
-              "Correo_Usuario":"adolfoMur@gmail.com",
-              "Contrasena_Usuario":"AdolfoMur_741",
-              "Tipo_Usuario":"estudiante",
-              "key":""
+            "nombre_Institucion": "Universidad Nacional Mayor de San Marcos",
+            "correo_Institucion": "unmsm@gmail.com"
           },
           {
             "id":4,
-              "DNI_Usuario": 72405976,
-              "Usuario_Usuario":"AnaCon",
-              "Nombre_Usuario":"Ana Contreras",
-              "Correo_Usuario":"anaCon@gmail.com",
-              "Contrasena_Usuario":"AnaCon864",
-              "Tipo_Usuario":"reclutador",
-              "key":""
+            "nombre_Institucion": "Universidad de Ingeniería y Tecnología",
+            "correo_Institucion": "utec@gmail.com"
+          },
+          {
+            "id":5,
+            "nombre_Institucion": "Pontificia Universidad Católica del Perú",
+            "correo_Institucion": "pucp@gmail.com"
+          },
+          {
+            "id":6,
+            "nombre_Institucion": "Universidad del Pacífico",
+            "correo_Institucion": "up@gmail.com"
+          },
+          {
+            "id":7,
+            "nombre_Institucion": "Universidad San Ignacio de Loyola",
+            "correo_Institucion": "usil@gmail.com"
+          },
+          {
+            "id":8,
+            "nombre_Institucion": "Universidad César Vallejo",
+            "correo_Institucion": "ucv@gmail.com"
+          },
+          {
+            "id":9,
+            "nombre_Institucion": "Universidad Ricardo Palma",
+            "correo_Institucion": "urp@gmail.com"
+          },
+          {
+            "id":10,
+            "nombre_Institucion": "Universidad Nacional Agraria La Molina",
+            "correo_Institucion": "lamolina@gmail.com"
+          },
+          {
+            "id":11,
+            "nombre_Institucion": "Universidad del Callao",
+            "correo_Institucion": "uncallao@gmail.com"
+          },
+          {
+            "id":12,
+            "nombre_Institucion": "Universidad Tecnológica del Perú",
+            "correo_Institucion": "utp@gmail.com"
+          },
+          {
+            "id":13,
+            "nombre_Institucion": "Universidad Nacional Federico Villarreal",
+            "correo_Institucion": "unfv@gmail.com"
+          },
+          {
+            "id":14,
+            "nombre_Institucion": "Universidad Católica San Pablo",
+            "correo_Institucion": "ucsp@gmail.com"
+          },
+          {
+            "id":15,
+            "nombre_Institucion": "Universidad Nacional José Faustino Sánchez Carrión",
+            "correo_Institucion": "unjfsc@gmail.com"
+          },
+          {
+            "id":16,
+            "nombre_Institucion": "Universidad Privada Antenor Orrego",
+            "correo_Institucion": "upao@gmail.com"
+          },
+          {
+            "id":17,
+            "nombre_Institucion": "Universidad Nacional de Trujillo",
+            "correo_Institucion": "unt@gmail.com"
+          },
+          {
+            "id":18,
+            "nombre_Institucion": "Universidad Privada del Norte",
+            "correo_Institucion": "upnorte@gmail.com"
           }
         ],
-      "Institucion_Educativa": [
+
+        "Carreras": [
           {
-            "id":1,
-            "nombre_Institucion": "Universidad Peruana de Ciencias Aplicadas"
-          },
-          {
-            "id":2,
-            "nombre_Institucion": "Universidad Nacional de Ingeniería"
-          },
-          {
-            "id":3,
-            "nombre_Institucion": "Universidad Nacional Mayor de San Marcos"
-          },
-          {
-            "id":4,
-            "nombre_Institucion": "Universidad de Ingeniería y Tecnología"
-          }
-        ],
-      "Carreras": [
-          {
-            "id":1,
+            "id": 1,
             "nombre_Carrera": "Ingeniería de Sistemas de Información"
           },
           {
-            "id":2,
+            "id": 2,
             "nombre_Carrera": "Ingeniería de Software"
           },
           {
-            "id":3,
+            "id": 3,
             "nombre_Carrera": "Ciencias de la Computación"
           },
           {
-            "id":4,
+            "id": 4,
             "nombre_Carrera": "Ingeniería Mecatrónica"
+          },
+          {
+            "id": 5,
+            "nombre_Carrera": "Ingeniería Civil"
+          },
+          {
+            "id": 6,
+            "nombre_Carrera": "Ingeniería Industrial"
+          },
+          {
+            "id": 7,
+            "nombre_Carrera": "Arquitectura"
+          },
+          {
+            "id": 8,
+            "nombre_Carrera": "Derecho"
+          },
+          {
+            "id": 9,
+            "nombre_Carrera": "Psicología"
+          },
+          {
+            "id": 10,
+            "nombre_Carrera": "Administración de Empresas"
+          },
+          {
+            "id": 11,
+            "nombre_Carrera": "Contabilidad"
+          },
+          {
+            "id": 12,
+            "nombre_Carrera": "Economía"
+          },
+          {
+            "id": 13,
+            "nombre_Carrera": "Medicina"
+          },
+          {
+            "id": 14,
+            "nombre_Carrera": "Odontología"
+          },
+          {
+            "id": 15,
+            "nombre_Carrera": "Enfermería"
+          },
+          {
+            "id": 16,
+            "nombre_Carrera": "Marketing"
+          },
+          {
+            "id": 17,
+            "nombre_Carrera": "Periodismo"
+          },
+          {
+            "id": 18,
+            "nombre_Carrera": "Comunicación Audiovisual"
+          },
+          {
+            "id": 19,
+            "nombre_Carrera": "Publicidad"
+          },
+          {
+            "id": 20,
+            "nombre_Carrera": "Turismo"
           }
         ],
-      "Calificacion": [
+        "Calificacion": [
           {
             "id":1,
             "id_Estudiante": 3,
@@ -141,6 +600,86 @@
             "id":4,
             "id_Estudiante": 2,
             "Calificacion": 3
+          },
+          {
+            "id":5,
+            "id_Estudiante": 1,
+            "Calificacion": 4
+          },
+          {
+            "id":6,
+            "id_Estudiante": 4,
+            "Calificacion": 3
+          },
+          {
+            "id":7,
+            "id_Estudiante": 5,
+            "Calificacion": 2
+          },
+          {
+            "id":8,
+            "id_Estudiante": 7,
+            "Calificacion": 5
+          },
+          {
+            "id":9,
+            "id_Estudiante": 10,
+            "Calificacion": 4
+          },
+          {
+            "id":10,
+            "id_Estudiante": 13,
+            "Calificacion": 3
+          },
+          {
+            "id":11,
+            "id_Estudiante": 15,
+            "Calificacion": 5
+          },
+          {
+            "id":12,
+            "id_Estudiante": 17,
+            "Calificacion": 2
+          },
+          {
+            "id":13,
+            "id_Estudiante": 18,
+            "Calificacion": 4
+          },
+          {
+            "id":14,
+            "id_Estudiante": 16,
+            "Calificacion": 5
+          },
+          {
+            "id":15,
+            "id_Estudiante": 14,
+            "Calificacion": 3
+          },
+          {
+            "id":16,
+            "id_Estudiante": 12,
+            "Calificacion": 2
+          },
+          {
+            "id":17,
+            "id_Estudiante": 9,
+            "Calificacion": 4
+          },
+          {
+            "id":18,
+            "id_Estudiante": 6,
+            "Calificacion": 5
+          },
+          {
+            "id":19,
+            "id_Estudiante": 8,
+            "Calificacion": 3
+          },
+          {
+            "id":20,
+            "id_Estudiante": 11,
+            "Calificacion": 4
           }
         ]
 }
